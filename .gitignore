@@ -1,0 +1,19 @@
+node_modules
+dist
+.DS_Store
+*.local
+.gemini
+/tools/asset-builder/*.png
+
+
+.vite-cache
+/qa/
+
+# Local backup of the original release
+Originale-backup.zip
+originale-sha256.json
+
+# Local secrets
+.env
+.env.*
+!.env.example
